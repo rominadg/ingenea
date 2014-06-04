@@ -7,7 +7,7 @@ ul {
 /* encabezado*/
 #home {
 	height: 670px; 
-	background: url(C:/Users/romina/Documents/GitHub/ingenea/theme/img/fdoencabezado.jpg) center top;	
+	background: url(../img/fdoencabezado.jpg) center top;	
 }
 .encabezado {
 	margin-top: 65px;
