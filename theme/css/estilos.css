@@ -1,0 +1,44 @@
+* {
+	font-family: 'Open Sans', sans-serif;
+}
+ul {
+	list-style: none;
+}
+/* encabezado*/
+#home {
+	height: 670px; 
+	background: url(C:/Users/romina/Documents/GitHub/ingenea/theme/img/fdoencabezado.jpg) center top;	
+}
+.encabezado {
+	margin-top: 65px;
+}
+.slogan {
+	font-weight: bold;
+	float: right;
+	padding-top: 20px;
+	color: #fff;
+}
+.enslogan {
+	color: #68b4bc;
+}
+/* fin de encabezado */
+/* botonera */
+.container {
+	width: 1170px;
+	margin: 0 auto;
+}
+.slider {
+	height: 545px;
+	background-color: #fff;
+}
+.nav {
+	height: 80px;
+	background-color: #399;
+}
+.nav li {
+	float: left;
+}
+.nav li a {	
+	color: #fff;
+}
+/* fin de botonera */
