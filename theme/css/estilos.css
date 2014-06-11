@@ -1,20 +1,23 @@
 * {
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Open Sans', sans-serif!important;
 }
 ul {
 	list-style: none;
 }
+.sinpadd {
+	padding: 0;
+}
 /* encabezado*/
-#home {
+#fondo {
 	height: 670px; 
 	background: url(../img/fdoencabezado.jpg) center top;	
 }
 .encabezado {
-	margin-top: 65px;
+	padding: 65px 30px 15px;
 }
 .slogan {
 	font-weight: bold;
-	float: right;
+	text-align: right;
 	padding-top: 20px;
 	color: #fff;
 }
@@ -23,22 +26,109 @@ ul {
 }
 /* fin de encabezado */
 /* botonera */
-.container {
-	width: 1170px;
-	margin: 0 auto;
+.top-bar {
+	background: #399;
 }
-.slider {
-	height: 545px;
-	background-color: #fff;
-}
-.nav {
+.data-topbar  {
 	height: 80px;
 	background-color: #399;
 }
-.nav li {
+.data-topbar li , .fdopie ul li {
 	float: left;
 }
-.nav li a {	
+.data-topbar li a {	
 	color: #fff;
 }
+.top-bar-section ul li {
+    background-color: #399; 
+}
+.top-bar-section li:not(.has-form) a:not(.button) {
+	padding: 0 26px;
+	line-height: 80px;
+	background: #399;
+}
+.top-bar-section ul li > a {
+	padding: 12px 0 12px 0;
+	/*font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;*/
+	font-size: 1rem;
+	font-weight: normal;
+	text-transform: none;
+}
+.top-bar-section li:not(.has-form) a:not(.button):hover {
+	background: #333;
+	color: #399;
+}
+.fdoredes {
+	background-color: #333;
+}
+.fdoredes > ul {
+	line-height: 80px;
+	margin-bottom: 0;
+	margin-left: 40px;
+}
+.fdoredes ul li a img {
+	border-right: 1px solid #c7fafa;
+	padding: 0 7px;
+}
+.sinderch {
+	padding-right: 0;
+	padding-left: 62px;
+}
+.sbrdr {
+	border: 0!important;
+}
 /* fin de botonera */
+
+/*contenido*/
+.ttls {
+	font-weight: lighter;
+	margin: 60px 0 30px;
+	text-align: center;
+	color: #399;
+}
+.txtprinc {
+	text-align: center;
+	margin-bottom: 60px;
+}
+
+/*footer*/
+#fondopie {
+	height: 164px; 
+	background: url(../img/fdopie.jpg) center top;	
+}
+.fdopie {
+	background: #333;
+	height: 70px;
+}
+.fdoredespie {
+	background: #399;
+	height: 70px;
+}
+.fdoredespie ul {
+	line-height: 70px;
+}
+.fdoredespie ul li a img {
+	border-right: 1px solid #fff;
+	padding: 0 7px;
+}
+.inline-list {
+	margin: 0 auto 0.5rem auto;
+	font-size: 0.8rem;
+	line-height: 70px;
+}
+.inline-list > li {
+	margin-left: 1rem;
+}
+.inline-list li a, .inline-list li span  {
+	color: #fff;
+}
+.inline-list li a:hover {
+	color: #399;
+}
+.copy {
+	font-size: 15px;
+	padding-left: 15px;
+}
+.logopie {
+	text-align: right;
+}

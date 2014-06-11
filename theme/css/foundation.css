@@ -1237,7 +1237,7 @@ meta.foundation-mq-topbar {
       z-index: 99; }
     .fixed.expanded:not(.top-bar) .top-bar-section {
       z-index: 98;
-      margin-top: 45px; }
+      /*margin-top: 45px;*/ }
 
 .top-bar {
   overflow: hidden;
