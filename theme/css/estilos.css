@@ -10,8 +10,8 @@ ul {
 }
 /* encabezado*/
 #fondo {
-	height: 670px; 
 	background: url(../img/fdoencabezado.jpg) center top;	
+	overflow: auto;
 }
 .encabezado {
 	padding: 65px 30px 15px;
@@ -92,6 +92,39 @@ ul {
 	margin-bottom: 60px;
 }
 
+/* slider */
+.fdoslide {
+	background: #fff;
+	overflow: hidden;
+}
+.fdoslide img {
+	float: right;
+}
+.contslide {
+	position: absolute;
+	top: 150px;
+	width: 550px;
+	margin-left: 50px;
+}
+.contslide h2 {
+	color: #399;
+}
+.orbit-slide-number {
+	display: none; 
+}
+.orbit-progress {
+	background-color: rgba(64, 173, 189, 0.3)!important;
+}
+.orbit-prev:hover, 
+.orbit-next:hover {
+	background-color: rgba(64, 173, 189, 0.3)!important;
+}
+.orbit-container .orbit-bullets li {
+	background: rgba(152, 154, 154, 0.5);
+}
+.orbit-container .orbit-bullets li.active {
+	background: rgba(64, 173, 189, 0.3);
+}
 /*footer*/
 #fondopie {
 	height: 164px; 
