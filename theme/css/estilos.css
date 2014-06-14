@@ -73,11 +73,18 @@ ul {
 }
 .sinderch {
 	padding-right: 0;
-	padding-left: 62px;
+	padding-left: 52px;
 }
 .sbrdr {
 	border: 0!important;
 }
+
+/* desplegable */
+@media only screen and (min-width: 40.063em) {
+.top-bar-section .has-dropdown > a:after {
+	top: 40px;
+}}
+
 /* fin de botonera */
 
 /*contenido*/
