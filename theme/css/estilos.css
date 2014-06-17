@@ -187,9 +187,42 @@ ul {
 .fdoredespie ul {
 	line-height: 70px;
 }
-.fdoredespie ul li a img {
-	border-right: 1px solid #fff;
-	padding: 0 7px;
+#redespie {
+	position: relative;
+}
+#redespie li {
+	position: absolute;
+	top: 0;
+	margin-top: 20px;
+	margin-left: 15px;
+}
+#redespie li, #redespie a {
+    height: 30px;
+    display: block;
+}
+#fcbk_pie {
+    left: 0px;
+    width: 30px;
+    background: url('../img/redes_pie.png') 0 0;
+}
+#lnkdn_pie {
+    left: 35px;
+    width: 30px;
+    background: url('../img/redes_pie.png') -30px 0;
+}
+#ggl_pie {
+    left: 70px;
+    width: 30px;
+    background: url('../img/redes_pie.png') -60px 0;
+}
+#fcbk_pie a:hover {
+    background: url('../img/redes_pie.png') 0 -30px;
+}
+#lnkdn_pie a:hover {
+    background: url('../img/redes_pie.png') -30px -30px;
+}
+#ggl_pie a:hover {
+    background: url('../img/redes_pie.png') -60px -30px;
 }
 .inline-list {
 	margin: 0 auto 0.5rem auto;
@@ -211,4 +244,31 @@ ul {
 }
 .logopie {
 	text-align: right;
+}
+/* estilos empresa*/
+.encabezadosecc {
+	padding: 65px 30px 55px;
+}
+.barsecc {
+	top: -40px;
+}
+.ttlsecc {
+	font-weight: bold;
+	margin: 0;
+	text-align: center;
+	line-height: 1;
+}
+.subttlsecc {
+	font-weight: lighter;
+	margin: 0;
+	text-align: center;
+	line-height: 1.2;
+}
+.contenido {
+	margin-top: 30px;
+	margin-bottom: 40px;
+}
+.txtsecc {
+	text-align: center;
+	margin: 10px 100px;
 }
