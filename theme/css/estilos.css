@@ -63,17 +63,16 @@ ul {
 	background-color: #333;
 }
 .fdoredes > ul {
-	line-height: 80px;
-	margin-bottom: 0;
-	margin-left: 40px;
+	height: 80px;
+	margin-bottom: 0!important;
 }
-.fdoredes ul li a img {
+/*.fdoredes ul li a img {
 	border-right: 1px solid #c7fafa;
 	padding: 0 7px;
-}
+} era para poner la línea , ahora como hago???*/
 .sinderch {
 	padding-right: 0;
-	padding-left: 52px;
+	padding-left: 58px;
 }
 .sbrdr {
 	border: 0!important;
@@ -85,6 +84,46 @@ ul {
 	top: 40px;
 }}
 
+#redestop {
+	position: relative;
+}
+#redestop li {
+	position: absolute;
+	top: 0;
+	margin-top: 25px;
+	margin-left: 40px;
+}
+#redestop li, #redestop a {
+    height: 30px;
+    display: block;
+}
+#fcbk_top {
+    left: 0px;
+    width: 30px;
+    background: url('../img/redes_top.png') 0 0;
+}
+#lnkdn_top {
+    left: 35px;
+    width: 30px;
+    background: url('../img/redes_top.png') -30px 0;
+}
+#ggl_top {
+    left: 70px;
+    width: 30px;
+    background: url('../img/redes_top.png') -60px 0;
+}
+#redestop > span {
+    left: 60px;
+}
+#fcbk_top a:hover {
+    background: url('../img/redes_top.png') 0 -30px;
+}
+#lnkdn_top a:hover {
+    background: url('../img/redes_top.png') -30px -30px;
+}
+#ggl_top a:hover {
+    background: url('../img/redes_top.png') -60px -30px;
+}
 /* fin de botonera */
 
 /*contenido*/
@@ -168,7 +207,7 @@ ul {
 }
 .copy {
 	font-size: 15px;
-	padding-left: 15px;
+	line-height: 50px;
 }
 .logopie {
 	text-align: right;
