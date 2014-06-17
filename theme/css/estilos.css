@@ -272,3 +272,20 @@ ul {
 	text-align: center;
 	margin: 10px 100px;
 }
+
+/*estilos servicios*/
+.servc {
+	background-color: rgba(102, 153, 153, 0.5);
+	padding: 40px 0 30px;
+}
+.servc h2 {
+	font-weight: lighter;
+	color: #399;
+}
+.servc p {
+	font-size: 15px;
+	line-height: 1.4;
+}
+#serv02 {
+	background-color: rgba(102, 153, 153, 0.3);
+}
