@@ -10,8 +10,8 @@ ul {
 }
 /* encabezado*/
 #fondo {
-	height: 670px; 
 	background: url(../img/fdoencabezado.jpg) center top;	
+	overflow: auto;
 }
 .encabezado {
 	padding: 65px 30px 15px;
@@ -63,20 +63,66 @@ ul {
 	background-color: #333;
 }
 .fdoredes > ul {
-	line-height: 80px;
-	margin-bottom: 0;
-	margin-left: 40px;
+	height: 80px;
+	margin-bottom: 0!important;
 }
-.fdoredes ul li a img {
+/*.fdoredes ul li a img {
 	border-right: 1px solid #c7fafa;
 	padding: 0 7px;
-}
+} era para poner la línea , ahora como hago???*/
 .sinderch {
 	padding-right: 0;
-	padding-left: 62px;
+	padding-left: 58px;
 }
 .sbrdr {
 	border: 0!important;
+}
+
+/* desplegable */
+@media only screen and (min-width: 40.063em) {
+.top-bar-section .has-dropdown > a:after {
+	top: 40px;
+}}
+
+#redestop {
+	position: relative;
+}
+#redestop li {
+	position: absolute;
+	top: 0;
+	margin-top: 25px;
+	margin-left: 40px;
+}
+#redestop li, #redestop a {
+    height: 30px;
+    display: block;
+}
+#fcbk_top {
+    left: 0px;
+    width: 30px;
+    background: url('../img/redes_top.png') 0 0;
+}
+#lnkdn_top {
+    left: 35px;
+    width: 30px;
+    background: url('../img/redes_top.png') -30px 0;
+}
+#ggl_top {
+    left: 70px;
+    width: 30px;
+    background: url('../img/redes_top.png') -60px 0;
+}
+#redestop > span {
+    left: 60px;
+}
+#fcbk_top a:hover {
+    background: url('../img/redes_top.png') 0 -30px;
+}
+#lnkdn_top a:hover {
+    background: url('../img/redes_top.png') -30px -30px;
+}
+#ggl_top a:hover {
+    background: url('../img/redes_top.png') -60px -30px;
 }
 /* fin de botonera */
 
@@ -92,6 +138,39 @@ ul {
 	margin-bottom: 60px;
 }
 
+/* slider */
+.fdoslide {
+	background: #fff;
+	overflow: hidden;
+}
+.fdoslide img {
+	float: right;
+}
+.contslide {
+	position: absolute;
+	top: 150px;
+	width: 550px;
+	margin-left: 50px;
+}
+.contslide h2 {
+	color: #399;
+}
+.orbit-slide-number {
+	display: none; 
+}
+.orbit-progress {
+	background-color: rgba(64, 173, 189, 0.3)!important;
+}
+.orbit-prev:hover, 
+.orbit-next:hover {
+	background-color: rgba(64, 173, 189, 0.3)!important;
+}
+.orbit-container .orbit-bullets li {
+	background: rgba(152, 154, 154, 0.5);
+}
+.orbit-container .orbit-bullets li.active {
+	background: rgba(64, 173, 189, 0.3);
+}
 /*footer*/
 #fondopie {
 	height: 164px; 
@@ -108,9 +187,42 @@ ul {
 .fdoredespie ul {
 	line-height: 70px;
 }
-.fdoredespie ul li a img {
-	border-right: 1px solid #fff;
-	padding: 0 7px;
+#redespie {
+	position: relative;
+}
+#redespie li {
+	position: absolute;
+	top: 0;
+	margin-top: 20px;
+	margin-left: 15px;
+}
+#redespie li, #redespie a {
+    height: 30px;
+    display: block;
+}
+#fcbk_pie {
+    left: 0px;
+    width: 30px;
+    background: url('../img/redes_pie.png') 0 0;
+}
+#lnkdn_pie {
+    left: 35px;
+    width: 30px;
+    background: url('../img/redes_pie.png') -30px 0;
+}
+#ggl_pie {
+    left: 70px;
+    width: 30px;
+    background: url('../img/redes_pie.png') -60px 0;
+}
+#fcbk_pie a:hover {
+    background: url('../img/redes_pie.png') 0 -30px;
+}
+#lnkdn_pie a:hover {
+    background: url('../img/redes_pie.png') -30px -30px;
+}
+#ggl_pie a:hover {
+    background: url('../img/redes_pie.png') -60px -30px;
 }
 .inline-list {
 	margin: 0 auto 0.5rem auto;
@@ -128,8 +240,66 @@ ul {
 }
 .copy {
 	font-size: 15px;
-	padding-left: 15px;
+	line-height: 50px;
 }
 .logopie {
 	text-align: right;
+}
+/* estilos empresa*/
+.encabezadosecc {
+	padding: 65px 30px 55px;
+}
+.barsecc {
+	top: -40px;
+}
+.ttlsecc {
+	font-weight: bold;
+	margin: 0;
+	text-align: center;
+	line-height: 1;
+}
+.subttlsecc {
+	font-weight: lighter;
+	margin: 0;
+	text-align: center;
+	line-height: 1.2;
+}
+.contenido {
+	margin-top: 30px;
+	margin-bottom: 40px;
+}
+.txtsecc {
+	text-align: center;
+	margin: 10px 100px;
+}
+
+/*estilos servicios*/
+.servc {
+	background-color: rgba(102, 153, 153, 0.5);
+	padding: 40px 0 30px;
+}
+.servc h2 {
+	font-weight: lighter;
+	color: #399;
+}
+.servc p {
+	font-size: 15px;
+	line-height: 1.4;
+}
+#serv02 {
+	background-color: rgba(102, 153, 153, 0.3);
+}
+	/* estilos stickynav*/
+.sub-nav dd {
+	font-size: 20px;
+}
+.sub-nav dd.active a , 
+.sub-nav dt.active a:hover, 
+.sub-nav dd.active a:hover, 
+.sub-nav li.active a:hover {
+	background: #399;
+}
+[data-magellan-expedition], 
+[data-magellan-expedition-clone] {
+	min-width: 0;
 }
