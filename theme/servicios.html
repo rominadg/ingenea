@@ -36,11 +36,11 @@
 		  <!--<section class="top-bar-section">-->
 			<ul class="left">
 			  <li>
-				<a href="#">Inicio</a>
+				<a href="./index.html">Inicio</a>
 			  </li>
 
 			  <li>
-				<a href="#">Empresa</a>
+				<a href="./empresa.html">Empresa</a>
 			  </li>
 			  
 			  <li>
@@ -50,7 +50,7 @@
 			  <li class="has-dropdown">
 				<a href="#">Soluciones</a>
 				<ul class="dropdown">
-					<li><a href="#">Desarrollos</a></li>
+					<li><a href="./soluciones_desarrollos.html">Desarrollos</a></li>
 					<li><a href="#">Productos</a></li>
 				</ul>
 			  </li>
@@ -89,16 +89,37 @@
   <div class="large-12 columns">
 <!-- Contenido -->
 	<h2 class="ttlsecc">SERVICIOS</h2>
-	<h3 class="subttlsecc">Desarrollo | Automatismo | Sistemas</h3>
+	<h3 class="subttlsecc">Unidades.</h3>
 	<p class="txtsecc">Desde el punto de vista de la implementación de soluciones, la empresa está estructurada en las siguientes unidades de negocios:</p>
   </div>
 </div>
-<div class="servc">
+
+<!-- sticky nav -->
+<div class="row">
+    <div class="large-12 columns">
+		<div data-magellan-expedition="fixed" id="stickyserv">
+		  <dl class="sub-nav">
+			<dd data-magellan-arrival="auto">
+				<a href="#auto">Automatismo</a>
+			</dd>
+			<dd data-magellan-arrival="desarrollo">
+				<a href="#desarrollo">Desarrollos</a>
+			</dd>
+			<dd data-magellan-arrival="sistemas">
+				<a href="#sistemas">Sistemas TIC</a>
+			</dd>
+		  </dl>
+		</div>
+    </div>
+</div>
+
+<a name="auto"></a>
+<div class="servc" data-magellan-destination="auto">
 	<div class="row">
 	  <div class="large-12 columns">
 		<div class="large-6 columns">
 			<img src="./img/imgserv.jpg" alt="Empresa">
-		</div>
+		</div>		
 		<div class="large-6 columns">
 			<h2>Automatismo.</h2>
 			<p>Se realizan tareas relacionadas con el asesoramiento, ingeniería básica y de detalle, diseño, implementación y puesta en marcha de proyectos de automatización de procesos en la industria. Las implementaciones de este tipo de proyectos están basadas en las herramientas clásicas requeridas por la industria, mediante la utilización de sistemas SCADA, PLC, HMI, etc.</p>
@@ -108,7 +129,8 @@
 	  </div>
 	</div>  
 </div>
-<div class="servc" id="serv02">
+<a name="desarrollo"></a>
+<div class="servc" id="serv02" data-magellan-destination="desarrollo">
 	<div class="row">
 	  <div class="large-12 columns">
 		<div class="large-6 columns">
@@ -121,7 +143,8 @@
 	  </div>
 	</div>  
 </div>
-<div class="servc">
+<a name="sistemas"></a>
+<div class="servc" data-magellan-destination="sistemas">
 	<div class="row">
 	  <div class="large-12 columns">
 		<div class="large-6 columns">
@@ -156,7 +179,7 @@
 	  <div class="large-10 columns">
 		<ul class="inline-list right">
 			  <li>
-				<a href="#">Home</a>
+				<a href="./index.html">Inicio</a>
 			  </li>
 			  <li><span>|</span></li>
 			  <li>
@@ -168,7 +191,7 @@
 			  </li>
 			  <li><span>|</span></li>
 			  <li>
-				<a href="#">Soluciones</a>
+				<a href="./soluciones_desarrollos.html">Soluciones</a>
 			  </li>
 			  <li><span>|</span></li>
 			  <li>

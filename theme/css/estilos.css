@@ -289,3 +289,17 @@ ul {
 #serv02 {
 	background-color: rgba(102, 153, 153, 0.3);
 }
+	/* estilos stickynav*/
+.sub-nav dd {
+	font-size: 20px;
+}
+.sub-nav dd.active a , 
+.sub-nav dt.active a:hover, 
+.sub-nav dd.active a:hover, 
+.sub-nav li.active a:hover {
+	background: #399;
+}
+[data-magellan-expedition], 
+[data-magellan-expedition-clone] {
+	min-width: 0;
+}
