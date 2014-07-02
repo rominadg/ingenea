@@ -77,7 +77,10 @@ ul {
 .sbrdr {
 	border: 0!important;
 }
-
+.activebtn {
+	background: #333;
+	color: #399;
+}
 /* desplegable */
 @media only screen and (min-width: 40.063em) {
 .top-bar-section .has-dropdown > a:after {
@@ -290,6 +293,11 @@ ul {
 	background-color: rgba(102, 153, 153, 0.3);
 }
 	/* estilos stickynav*/
+[data-magellan-expedition] .sub-nav, 
+[data-magellan-expedition-clone] .sub-nav {
+	margin: 0 auto;
+	width: 500px; 
+}
 .sub-nav dd {
 	font-size: 20px;
 }
@@ -299,7 +307,228 @@ ul {
 .sub-nav li.active a:hover {
 	background: #399;
 }
-[data-magellan-expedition], 
-[data-magellan-expedition-clone] {
-	min-width: 0;
+
+/*soluciones | desarrollos*/
+.tt-desarrll {
+	color: #399;
+	font-weight: lighter;
+}
+.txt-desarrll {
+	font-size: 14px;
+}
+.btn-desarrll {
+	text-align: right;
+}
+.btn-desarrll a {
+	color: #999;
+}
+.btn-desarrll a:hover {
+	color: #399;
+}
+
+/*soluciones | productos*/
+.fdo-prod {
+	position: relative; 
+	display: block;
+	background: #399;
+}
+.over-prod {
+	position: absolute;
+	bottom: 0;
+	text-align: center;
+	padding: 57px 15px;
+}
+.over-prod > h4 {
+	color: #8cd2d2;
+}
+.over-prod > p {
+	font-size: 15px;
+	color: white;
+}
+.fdo-prod .over-prod {
+	-webkit-transition: 0.4s ease-in-out;
+	-moz-transition: 0.4s ease-in-out;
+	-ms-transition: 0.4s ease-in-out;
+	-o-transition: 0.4s ease-in-out;
+	transition: 0.4s ease-in-out;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+	filter: alpha(opacity=0);
+	-moz-opacity: 0;
+	-khtml-opacity: 0;
+	opacity: 0;
+}
+.fdo-prod:hover .over-prod {
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+	filter: alpha(opacity=100);
+	-moz-opacity: 1;
+	-khtml-opacity: 1;
+	opacity: 1;
+}
+.fdo-prod:hover > img {
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=10)";
+	filter: alpha(opacity=10);
+	-moz-opacity: 0.1;
+	-khtml-opacity: 0.1;
+	opacity: 0.1;
+}
+
+/*contacto*/
+.margen {
+	margin-top: 20px;
+}
+input[type="text"], input[type="password"], input[type="date"], 
+input[type="datetime"], input[type="datetime-local"], 
+input[type="month"], input[type="week"], input[type="email"],
+input[type="number"], input[type="search"], input[type="tel"],
+input[type="time"], input[type="url"], textarea {
+	border: 1px solid #399;
+}
+textarea {
+	height: 180px;
+}
+::-webkit-input-placeholder {
+   color: rgba(51, 153, 153, 0.75);
+} 
+:-moz-placeholder /* Firefox 18- */ {
+   color: rgba(51, 153, 153, 0.75);
+}
+::-moz-placeholder  /* Firefox 19+ */ {
+   color: rgba(51, 153, 153, 0.75);
+}
+:-ms-input-placeholder  {
+   color: rgba(51, 153, 153, 0.75);
+}
+.button {
+	background-color: #399;
+}
+.button:hover, .button:focus {
+	background-color: #277e7e;
+}
+
+/*casos*/
+.ttcasos {
+	font-weight: bold;
+	color: #399;
+	padding-left: 10px;
+}
+#casos {
+	width: 600px; 
+	margin: 0;
+}
+#casos > dd {
+	font-size: 16px;
+	background-color: #399;
+	padding: 5px;
+	margin-left: 1px;
+}
+#casos dd a {
+	color: #fff;
+	background: transparent;
+}
+table {
+	margin-left: 9px;
+	border: none; 
+}
+#casos > dd.ttautocaso:hover,
+#casos > dd.ttautocaso a:hover, 
+#casos > dd.ttautocaso a:active {
+	background-color: #175c5c;
+}
+.clientes {
+	color: #60b9b9;
+}
+.titular {
+	font-weight: bold;
+	color: #399;
+	background-color: #ccc;
+	padding-left: 0;
+	padding: 10px;
+	border-right: solid 1px #fff;	 
+}
+#casos > dd.ttdesarrcaso:hover,
+#casos > dd.ttdesarrcaso:active {
+	background-color: #2c8f8f;
+}
+#casos > dd.ttsistcaso:hover,
+#casos > dd.ttsistcaso:active {
+	background-color: #73c8c8;
+}
+.autocaso {
+	background-color: #175c5c;
+	border-top: solid 1px white;
+	color: #fff;
+	padding: 10px;
+}
+.desarrcaso {
+	background-color: #2c8f8f;
+	border-top: solid 1px white;
+	color: #fff;
+	padding: 10px;
+}
+.ticcaso {
+	background-color: #73c8c8;
+	border-top: solid 1px white;
+	color: #fff;
+	padding: 10px;
+}
+/*clientes*/
+.mrglogos {
+	padding-bottom: 15px;
+}
+.sepclientes {
+	border: dashed 1px #60b9b9;
+}
+
+/*cada desarrollo*/
+ .bold {
+	font-weight: normal; 
+}
+
+/*cada producto*/
+.prod-secc {
+	color: #fff;
+	background-color: #399;
+	padding: 8px;
+}
+.fdo {
+	background-color: #175c5c;
+	height: 70px;
+	border-left: solid 1px white;
+}
+.txt-prod > p {
+	font-size: 15px;
+	margin-bottom: 0.6rem;
+}
+.docuprod {
+	position: relative;
+}
+.docuprod a {
+	position: absolute;
+	top: 0;
+}
+.iconodocu {
+	position: absolute;
+	top: 0;
+	background-color: #d4d6d6;
+	height: 70px;
+	width: 70px;
+	margin-left: 30px;
+}
+#manual {
+	background: url('../img/docu_prod.png') 0 0;
+}
+#manual:hover {
+	background: url('../img/docu_prod.png') 0 -70px;
+}
+#software {
+	background: url('../img/docu_prod.png') -70px 0;
+}
+#software:hover {
+	background: url('../img/docu_prod.png') -70px -70px;
+}
+#folleto {
+	background: url('../img/docu_prod.png') 70px 0;
+}
+#folleto:hover {
+	background: url('../img/docu_prod.png') 70px -70px;
 }
