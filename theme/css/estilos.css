@@ -429,6 +429,13 @@ table {
 	margin-left: 9px;
 	border: none; 
 }
+.ancla > td {
+	padding: 0;
+}
+tr > th {
+	background: #ccc;
+	color: #399!important;
+}
 #casos > dd.ttautocaso:hover,
 #casos > dd.ttautocaso a:hover, 
 #casos > dd.ttautocaso a:active {
@@ -437,13 +444,31 @@ table {
 .clientes {
 	color: #60b9b9;
 }
-.titular {
+/*.titular {
 	font-weight: bold;
 	color: #399;
 	background-color: #ccc;
 	padding-left: 0;
 	padding: 10px;
 	border-right: solid 1px #fff;	 
+}*/
+.autocaso, 
+.autocaso:nth-of-type(even) {
+	background-color: #175c5c;
+	color: #fff;
+}
+.desarrcaso,
+.desarrcaso:nth-of-type(even) {
+	background-color: #2c8f8f;
+	color: #fff;
+}
+.ticcaso,
+.ticcaso:nth-of-type(even) {
+	background-color: #73c8c8;
+	color: #fff;
+}
+tr td {
+	color: #fff!important;
 }
 #casos > dd.ttdesarrcaso:hover,
 #casos > dd.ttdesarrcaso:active {
@@ -452,24 +477,6 @@ table {
 #casos > dd.ttsistcaso:hover,
 #casos > dd.ttsistcaso:active {
 	background-color: #73c8c8;
-}
-.autocaso {
-	background-color: #175c5c;
-	border-top: solid 1px white;
-	color: #fff;
-	padding: 10px;
-}
-.desarrcaso {
-	background-color: #2c8f8f;
-	border-top: solid 1px white;
-	color: #fff;
-	padding: 10px;
-}
-.ticcaso {
-	background-color: #73c8c8;
-	border-top: solid 1px white;
-	color: #fff;
-	padding: 10px;
 }
 /*clientes*/
 .mrglogos {
