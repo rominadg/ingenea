@@ -275,6 +275,9 @@ ul {
 	text-align: center;
 	margin: 10px 100px;
 }
+.ubicqr img {
+	margin-top: 240px;
+}
 
 /*estilos servicios*/
 .servc {
