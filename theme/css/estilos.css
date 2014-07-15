@@ -519,8 +519,115 @@ tr td {
 	background-color: #73c8c8;
 }
 /*clientes*/
+.clientes,
+.logosclientes {
+	position: relative; 
+	height: 59px; 
+	display: block;
+}
+.logosclientes {
+	position: absolute;
+	left: 0;
+	width: 150px;
+}
+.ypf {
+	background: url('../img/ypf.jpg') 0 0;
+}
+a.ypf:hover {
+	background: url('../img/ypf.jpg') 0 -59px;
+}
+.ternium {
+	background: url('../img/ternium.jpg') 0 0;
+}
+a.ternium:hover {
+	background: url('../img/ternium.jpg') 0 -59px;
+}
+.aguas {
+	background: url('../img/aguasstafe.jpg') 0 0;
+}
+a.aguas:hover {
+	background: url('../img/aguasstafe.jpg') 0 -59px;
+}
+.oil {
+	background: url('../img/oil.jpg') 0 0;
+}
+a.oil:hover {
+	background: url('../img/oil.jpg') 0 -59px;
+}
+.dreyfus {
+	background: url('../img/dreyfus.jpg') 0 0;
+}
+a.dreyfus:hover {
+	background: url('../img/dreyfus.jpg') 0 -59px;
+}
+.secco {
+	background: url('../img/secco.jpg') 0 0;
+}
+a.secco:hover {
+	background: url('../img/secco.jpg') 0 -59px;
+}
+.explora {
+	background: url('../img/explora.jpg') 0 0;
+}
+a.explora:hover {
+	background: url('../img/explora.jpg') 0 -59px;
+}
+.lavirginia {
+	background: url('../img/lavirginia.jpg') 0 0;
+}
+a.lavirginia:hover {
+	background: url('../img/lavirginia.jpg') 0 -59px;
+}
+.gafa {
+	background: url('../img/gafa.jpg') 0 0;
+}
+a.gafa:hover {
+	background: url('../img/gafa.jpg') 0 -59px;
+}
+.schneider {
+	background: url('../img/schneider.jpg') 0 0;
+}
+a.schneider:hover {
+	background: url('../img/schneider.jpg') 0 -59px;
+}
+.alberdi {
+	background: url('../img/alberdi.jpg') 0 0;
+}
+a.alberdi:hover {
+	background: url('../img/alberdi.jpg') 0 -59px;
+}
+.mapsa {
+	background: url('../img/mapsa.jpg') 0 0;
+}
+a.mapsa:hover {
+	background: url('../img/mapsa.jpg') 0 -59px;
+}
+.t6 {
+	background: url('../img/t6.jpg') 0 0;
+}
+a.t6:hover {
+	background: url('../img/t6.jpg') 0 -59px;
+}
+.berandebi {
+	background: url('../img/berandebi.jpg') 0 0;
+}
+a.berandebi:hover {
+	background: url('../img/berandebi.jpg') 0 -59px;
+}
+.aguasproc {
+	background: url('../img/aguasproc.jpg') 0 0;
+}
+a.aguasproc:hover {
+	background: url('../img/aguasproc.jpg') 0 -59px;
+}
+.valtellina {
+	background: url('../img/valtellina.jpg') 0 0;
+}
+a.valtellina:hover {
+	background: url('../img/valtellina.jpg') 0 -59px;
+}
 .mrglogos {
-	padding-bottom: 15px;
+	padding-bottom: 20px;
 }
 .sepclientes {
 	border: dashed 1px #60b9b9;
