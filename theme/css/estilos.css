@@ -267,6 +267,10 @@ ul {
 	text-align: center;
 	line-height: 1.2;
 }
+.areas {
+	margin-top: 15px;
+	color: #399;
+}
 .contenido {
 	margin-top: 30px;
 	margin-bottom: 40px;
@@ -280,26 +284,29 @@ ul {
 }
 
 /*estilos servicios*/
+.serv02 {
+	background-color: rgba(102, 153, 153, 0.3);
+	padding: 40px 0 30px;
+}
 .servc {
 	background-color: rgba(102, 153, 153, 0.5);
 	padding: 40px 0 30px;
 }
-.servc h2 {
+.servc h2, .serv02 h2 {
 	font-weight: lighter;
 	color: #399;
 }
-.servc p {
+.servc p, 
+.serv02 p {
 	font-size: 15px;
 	line-height: 1.4;
 }
-#serv02 {
-	background-color: rgba(102, 153, 153, 0.3);
-}
+
 	/* estilos stickynav*/
 [data-magellan-expedition] .sub-nav, 
 [data-magellan-expedition-clone] .sub-nav {
 	margin: 0 auto;
-	width: 500px; 
+	width: 700px; 
 }
 .sub-nav dd {
 	font-size: 20px;
@@ -451,6 +458,19 @@ textarea {
 	color: #399;
 	padding-left: 10px;
 }
+.casos {
+	text-align: center;
+	background-color: #8cd2d2;
+	padding: 15px 40px;
+	border-bottom: 1px solid #fff;
+}
+.auto {
+	background-color: #72bdbd;
+}
+.casos > h4{
+	color: #fff;
+}
+/*ver estos estilos */
 #casos {
 	width: 600px; 
 	margin: 0;
@@ -484,14 +504,6 @@ tr > th {
 .clientes {
 	color: #60b9b9;
 }
-/*.titular {
-	font-weight: bold;
-	color: #399;
-	background-color: #ccc;
-	padding-left: 0;
-	padding: 10px;
-	border-right: solid 1px #fff;	 
-}*/
 .autocaso, 
 .autocaso:nth-of-type(even) {
 	background-color: #175c5c;
