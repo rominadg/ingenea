@@ -543,214 +543,112 @@ tr td {
 .logosclientes {
 	position: absolute;
 	left: 0;
-	width: 150px;
-}
-.ypf {
-	background: url('../img/ypf.jpg') 0 0;
-}
-a.ypf:hover {
-	background: url('../img/ypf.jpg') 0 -59px;
-}
-.ternium {
-	background: url('../img/ternium.jpg') 0 0;
-}
-a.ternium:hover {
-	background: url('../img/ternium.jpg') 0 -59px;
-}
-.aguas {
-	background: url('../img/aguasstafe.jpg') 0 0;
-}
-a.aguas:hover {
-	background: url('../img/aguasstafe.jpg') 0 -59px;
-}
-.oil {
-	background: url('../img/oil.jpg') 0 0;
-}
-a.oil:hover {
-	background: url('../img/oil.jpg') 0 -59px;
-}
-.dreyfus {
-	background: url('../img/dreyfus.jpg') 0 0;
-}
-a.dreyfus:hover {
-	background: url('../img/dreyfus.jpg') 0 -59px;
-}
-.secco {
-	background: url('../img/secco.jpg') 0 0;
-}
-a.secco:hover {
-	background: url('../img/secco.jpg') 0 -59px;
-}
-.explora {
-	background: url('../img/explora.jpg') 0 0;
-}
-a.explora:hover {
-	background: url('../img/explora.jpg') 0 -59px;
-}
-.lavirginia {
-	background: url('../img/lavirginia.jpg') 0 0;
-}
-a.lavirginia:hover {
-	background: url('../img/lavirginia.jpg') 0 -59px;
-}
-.gafa {
-	background: url('../img/gafa.jpg') 0 0;
-}
-a.gafa:hover {
-	background: url('../img/gafa.jpg') 0 -59px;
-}
-.schneider {
-	background: url('../img/schneider.jpg') 0 0;
-}
-a.schneider:hover {
-	background: url('../img/schneider.jpg') 0 -59px;
-}
-.alberdi {
-	background: url('../img/alberdi.jpg') 0 0;
-}
-a.alberdi:hover {
-	background: url('../img/alberdi.jpg') 0 -59px;
-}
-.mapsa {
-	background: url('../img/mapsa.jpg') 0 0;
-}
-a.mapsa:hover {
-	background: url('../img/mapsa.jpg') 0 -59px;
-}
-.t6 {
-	background: url('../img/t6.jpg') 0 0;
-}
-a.t6:hover {
-	background: url('../img/t6.jpg') 0 -59px;
-}
-.berandebi {
-	background: url('../img/berandebi.jpg') 0 0;
-}
-a.berandebi:hover {
-	background: url('../img/berandebi.jpg') 0 -59px;
-}
-.aguasproc {
-	background: url('../img/aguasproc.jpg') 0 0;
-}
-a.aguasproc:hover {
-	background: url('../img/aguasproc.jpg') 0 -59px;
-}
-.valtellina {
-	background: url('../img/valtellina.jpg') 0 0;
-}
-a.valtellina:hover {
-	background: url('../img/valtellina.jpg') 0 -59px;
+	width: 200px;
 }
 .mrglogos {
-	padding-bottom: 20px;
+	padding-bottom: 40px;
 }
 .sepclientes {
 	border: dashed 1px #60b9b9;
 }
 
-/* PRUEBA DE 4LOGOS POR HILERA */
-.x4 {
-	position: absolute;
-	left: 0;
-	width: 200px;
-}
-.ypfx4 {
+/*logos clientes*/
+.ypf {
 	background: url('../img/ypfx4.jpg') 0 0;
 }
-a.ypfx4:hover {
+a.ypf:hover {
 	background: url('../img/ypfx4.jpg') 0 -59px;
 }
-.terniumx4 {
+.ternium {
 	background: url('../img/terniumx4.jpg') 0 0;
 }
-a.terniumx4:hover {
+a.ternium:hover {
 	background: url('../img/terniumx4.jpg') 0 -59px;
 }
-.aguasx4 {
+.aguas {
 	background: url('../img/aguasx4.jpg') 0 0;
 }
-a.aguasx4:hover {
+a.aguas:hover {
 	background: url('../img/aguasx4.jpg') 0 -59px;
 }
-.oilx4 {
+.oil {
 	background: url('../img/oilx4.jpg') 0 0;
 }
-a.oilx4:hover {
+a.oil:hover {
 	background: url('../img/oilx4.jpg') 0 -59px;
 }
-.dreyfusx4 {
+.dreyfus {
 	background: url('../img/dreyfusx4.jpg') 0 0;
 }
-a.dreyfusx4:hover {
+a.dreyfus:hover {
 	background: url('../img/dreyfusx4.jpg') 0 -59px;
 }
-.seccox4 {
+.secco {
 	background: url('../img/seccox4.jpg') 0 0;
 }
-a.seccox4:hover {
+a.secco:hover {
 	background: url('../img/seccox4.jpg') 0 -59px;
 }
-.explorax4 {
+.explora {
 	background: url('../img/explorax4.jpg') 0 0;
 }
-a.explorax4:hover {
+a.explora:hover {
 	background: url('../img/explorax4.jpg') 0 -59px;
 }
-.lavirginiax4 {
+.lavirginia {
 	background: url('../img/lavirginiax4.jpg') 0 0;
 }
-a.lavirginiax4:hover {
+a.lavirginia:hover {
 	background: url('../img/lavirginiax4.jpg') 0 -59px;
 }
-.gafax4{
+.gafa{
 	background: url('../img/gafax4.jpg') 0 0;
 }
-a.gafax4:hover {
+a.gafa:hover {
 	background: url('../img/gafax4.jpg') 0 -59px;
 }
-.schneiderx4 {
+.schneider {
 	background: url('../img/schneiderx4.jpg') 0 0;
 }
-a.schneiderx4:hover {
+a.schneider:hover {
 	background: url('../img/schneiderx4.jpg') 0 -59px;
 }
-.alberdix4 {
+.alberdi {
 	background: url('../img/alberdix4.jpg') 0 0;
 }
-a.alberdix4:hover {
+a.alberdi:hover {
 	background: url('../img/alberdix4.jpg') 0 -59px;
 }
-.mapsax4 {
+.mapsa {
 	background: url('../img/mapsax4.jpg') 0 0;
 }
-a.mapsax4:hover {
+a.mapsa:hover {
 	background: url('../img/mapsax4.jpg') 0 -59px;
 }
-.t6x4 {
+.t6 {
 	background: url('../img/t6x4.jpg') 0 0;
 }
-a.t6x4:hover {
+a.t6:hover {
 	background: url('../img/t6x4.jpg') 0 -59px;
 }
-.berandebix4 {
+.berandebi {
 	background: url('../img/berandebix4.jpg') 0 0;
 }
-a.berandebix4:hover {
+a.berandebi:hover {
 	background: url('../img/berandebix4.jpg') 0 -59px;
 }
-.aguasprocx4 {
+.aguasproc {
 	background: url('../img/aguasprocx4.jpg') 0 0;
 }
-a.aguasprocx4:hover {
+a.aguasproc:hover {
 	background: url('../img/aguasprocx4.jpg') 0 -59px;
 }
-.valtellinax4 {
+.valtellina {
 	background: url('../img/valtellinax4.jpg') 0 0;
 }
-a.valtellinax4:hover {
+a.valtellina:hover {
 	background: url('../img/valtellinax4.jpg') 0 -59px;
 }
-/* FIN DE PRUEBA DE 4LOGOS POR HILERA */
 
 /*cada desarrollo*/
  .bold {
