@@ -72,7 +72,7 @@ ul {
 } era para poner la línea , ahora como hago???*/
 .sinderch {
 	padding-right: 0;
-	padding-left: 58px;
+	padding-left: 43px;
 }
 .sbrdr {
 	border: 0!important;
@@ -233,7 +233,7 @@ ul {
 	line-height: 70px;
 }
 .inline-list > li {
-	margin-left: 1rem;
+	margin-left: 0.7rem;
 }
 .inline-list li a, .inline-list li span  {
 	color: #fff;
@@ -452,7 +452,10 @@ textarea {
 	background-color: #277e7e;
 }
 
-/*casos*/
+/*clientes*/
+.paddbtm {
+	padding-bottom: 25px;
+}
 .ttcasos {
 	font-weight: bold;
 	color: #399;
@@ -644,6 +647,110 @@ a.valtellina:hover {
 .sepclientes {
 	border: dashed 1px #60b9b9;
 }
+
+/* PRUEBA DE 4LOGOS POR HILERA */
+.x4 {
+	position: absolute;
+	left: 0;
+	width: 200px;
+}
+.ypfx4 {
+	background: url('../img/ypfx4.jpg') 0 0;
+}
+a.ypfx4:hover {
+	background: url('../img/ypfx4.jpg') 0 -59px;
+}
+.terniumx4 {
+	background: url('../img/terniumx4.jpg') 0 0;
+}
+a.terniumx4:hover {
+	background: url('../img/terniumx4.jpg') 0 -59px;
+}
+.aguasx4 {
+	background: url('../img/aguasx4.jpg') 0 0;
+}
+a.aguasx4:hover {
+	background: url('../img/aguasx4.jpg') 0 -59px;
+}
+.oilx4 {
+	background: url('../img/oilx4.jpg') 0 0;
+}
+a.oilx4:hover {
+	background: url('../img/oilx4.jpg') 0 -59px;
+}
+.dreyfusx4 {
+	background: url('../img/dreyfusx4.jpg') 0 0;
+}
+a.dreyfusx4:hover {
+	background: url('../img/dreyfusx4.jpg') 0 -59px;
+}
+.seccox4 {
+	background: url('../img/seccox4.jpg') 0 0;
+}
+a.seccox4:hover {
+	background: url('../img/seccox4.jpg') 0 -59px;
+}
+.explorax4 {
+	background: url('../img/explorax4.jpg') 0 0;
+}
+a.explorax4:hover {
+	background: url('../img/explorax4.jpg') 0 -59px;
+}
+.lavirginiax4 {
+	background: url('../img/lavirginiax4.jpg') 0 0;
+}
+a.lavirginiax4:hover {
+	background: url('../img/lavirginiax4.jpg') 0 -59px;
+}
+.gafax4{
+	background: url('../img/gafax4.jpg') 0 0;
+}
+a.gafax4:hover {
+	background: url('../img/gafax4.jpg') 0 -59px;
+}
+.schneiderx4 {
+	background: url('../img/schneiderx4.jpg') 0 0;
+}
+a.schneiderx4:hover {
+	background: url('../img/schneiderx4.jpg') 0 -59px;
+}
+.alberdix4 {
+	background: url('../img/alberdix4.jpg') 0 0;
+}
+a.alberdix4:hover {
+	background: url('../img/alberdix4.jpg') 0 -59px;
+}
+.mapsax4 {
+	background: url('../img/mapsax4.jpg') 0 0;
+}
+a.mapsax4:hover {
+	background: url('../img/mapsax4.jpg') 0 -59px;
+}
+.t6x4 {
+	background: url('../img/t6x4.jpg') 0 0;
+}
+a.t6x4:hover {
+	background: url('../img/t6x4.jpg') 0 -59px;
+}
+.berandebix4 {
+	background: url('../img/berandebix4.jpg') 0 0;
+}
+a.berandebix4:hover {
+	background: url('../img/berandebix4.jpg') 0 -59px;
+}
+.aguasprocx4 {
+	background: url('../img/aguasprocx4.jpg') 0 0;
+}
+a.aguasprocx4:hover {
+	background: url('../img/aguasprocx4.jpg') 0 -59px;
+}
+.valtellinax4 {
+	background: url('../img/valtellinax4.jpg') 0 0;
+}
+a.valtellinax4:hover {
+	background: url('../img/valtellinax4.jpg') 0 -59px;
+}
+/* FIN DE PRUEBA DE 4LOGOS POR HILERA */
 
 /*cada desarrollo*/
  .bold {
